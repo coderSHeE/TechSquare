@@ -1,8 +1,7 @@
 body{
- background: #8A2387;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 ul{
@@ -13,4 +12,29 @@ ul{
 .home{
     margin-top: 2rem;
     text-align: center;
+    color: #ffff;
+}
+
+.blogs{
+    text-align: center;
+    color: #fff;
+    margin-left: 1rem;
+
+}
+
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #000;
+}
+
+a:active{
+    color: chartreuse;
 }
