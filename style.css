@@ -25,6 +25,10 @@ ul{
 
 }
 
+.cards p{
+    font-size: small;
+}
+
 
 a:link{
     color: yellow;
