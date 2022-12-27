@@ -8,78 +8,166 @@
     <title>Document</title>
 </head>
 <body>
-    <style>
-        body{
-            text-align: justify;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            margin-top: 3rem;
-            
-            
-        }
-    </style>
-    <h3>The Complete Front-End Developer Roadmap 2023</h3>
-    <article>
-        In this article
-<li>Fundamentals of Front End</li>
-<li>Front-End Developer Roadmap - Top Skills A Front-End Developer Should Have</li>
-<li>You’re All Set</li>
-<li>Frequently Asked Questions (FAQs)</li>
-    </article>
+    <div>
+        <nav id="navbar">
+          <header>
+            <h1>Coding Documentation</h1>
+          </header>
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="#introduction" class="nav-link">Introduction</a></li>
+            <li class="nav-list-item"><a href="#what_i've_learned_about_coding" class="nav-link">What I've learned about coding</a></li>
+            <li class="nav-list-item"><a href="#html" class="nav-link">HTML</a></li>
+            <li class="nav-list-item"><a href="#css" class="nav-link">CSS</a></li>
+            <li class="nav-list-item"><a href="#javascript" class="nav-link">JavaScript</a></li>
+            <li class="nav-list-item"><a href="#helpful_resources" class="nav-link">Helpful resources</a></li>
+            <button type="button" style="height: 2rem; width: 7rem; background-color: yellow;" ><a href="#">Go Back</a></button>
+          </ul>
+        </nav>
+      </div>
+      <main id="main-doc">
+        <section id="introduction" class="main-section">
+          <header>
+            <h2>Introduction</h2>
+          </header>
+          <p>In this coding documentation I will be going over what I believe are some of the core technical information I have learned in my self-taught coding journey. Firstly, I will give you a little bit of background information, so that you will understand how I decided to start coding. I first learned to code in my senior year of university, where I took 101 computer science class. At this time I did not take coding seriously and I only took the class to fulfill a credits requirement. Not to be negative, but I do blame my professor for not making the class interesting and more importantly explaining what people can do with coding/programming. If this professor had the same energy and passion for computer science like many of the teachers I am following on Youtube, I know I would have taken the class much more seriously. During the class I remember feeling lost and confused with a lot of the computer science concepts. We were taught some basic HTML and the final project for the class was to create a basic website. I struggled and furiously looked up tutorials and read articles to help me create my website. Even though I mentioned that I didn't take this class serioulsy, I wasn't the kind of student that aimed to get B's and C's. In the end I was able to create my basic website and I remember at the time having fun trying to pick out what color to make the background, and how to customize the links. Unfortunately, after I passed the class coding never crossed my mind until a couple of years later. </p>
+          <p>Years later after graduating from college, I randomly started thinking about the computer science class again. I started to think to myself that even though I was stuck a lot of times in building that basic website I was able to make it. I realized that even though I wasn't a math genius and I didn't understand computers inside and out, I was able to create a basic website. I realized that for some reason I had it in my mind that people who code for a living are like astronauts, where you need to have two masters degrees and you need to be a genius. I built a basic website through sheer hard work, yes I needed to undestand what I was typing and how it translates into a website being built. But, I didn't need to be a computer genius where I could literally build a computer from scratch and understand how every single part of hardware and software works. After that realization I started doing research and found a lot of testimonials of people becoming coders, and it really made me want to get involved. As I was trying to relearn basic computer science concepts, I realized in my research that so many things in our modern world revolve around code. If I could build a website while only half trying, what could I do if I really put forth the effort and learn to code? That is the journey that I am on today!</p>
+        </section>
+        <section id="what_i've_learned_about_coding" class="main-section">
+          <header>
+            <h2>What I've learned about coding</h2>
+          </header>
+          <p>What I learned about coding is that at its core, it is the act of writing very detailed instructions for a computer to read and perform the actions that are given in code. Programming languages are in effect a way for people to be able to write down these instructions, then a computer translates the code into binary (computer language) in order to perform the actions that were written. I learned that computers are actually not intelligent at all, they can process information very quickly but they cannot create things. That is where programmers come in and basically create blueprints with code to create actual things, like apps, video games, etc. Code is written on an IDE (Integrated Development Environment), which is a software application that allows programmers to write code. In the early days code used to be written on punch cards that a computer could translate to do tasks. Later on programming languages were created to allow programmers to make coding easier and to be able to have a computer do more complex tasks.</p>
+          <p>Coding not only has helped create software for entertainment purposes, but it also helps make our modern lives more convenient and accessible. Some of the things that exist because of coding are the following:</p>
+          <ul>
+            <li class="reg-list">Apps (mobile & desktop)</li>
+            <li class="reg-list">Video games</li>
+            <li class="reg-list">Websites</li>
+            <li class="reg-list">Text-to-speech software</li>
+            <li class="reg-list">Operating systems</li>
+          </ul>
+        </section>
+        <section id="html" class="main-section">
+          <header>
+            <h2>HTML</h2>
+          </header>
+          <p>HTML stands for HyperText Markup Language, it is a language used for creating websites. When creating a website HTML is responsible for actually holding the content within the website and establishing the structure of the website. Lets use a blog website as an example, a lot of the content in a blog is written, so it would be held inside a <code>p</code> tag/element. This element represents a paragraph or any line of words. Since those blog posts are the main part of that website those <code>p</code> tags would be held inside the <code>main</code> tag. As far as structure goes, it is very common for most websites to have an area where they can press buttons or links to navigate to other parts of the website. These links or buttons would be held in a <code>nav</code> tag, so users can navigate to different parts of the website.</p>
+          <p>Now it is not as simple as writing what you want in these tags. With HTML and other technologies there are rules/syntax that is used when coding in HTML. For example, going back to the navigation on a website, you can't simply write in plain text your links or a button inside the <code>nav</code> tag. If you are creating a list of different links you would have to declare that by nesting another group of tags within the <code>nav</code> tag. For links there are two options, you could use anchor tags represented by the <code>a</code> tag or you could create a list first with the <code>ul</code> (unorganized list) and <code>li</code> (list items) tags. If you are making a list then the <code>a</code> anchor tags are put within the <code>li</code> tags. In this example, written content is held within the <code>p</code> tag. The structure of the website is established by having a navigation bar that could take users to different parts on the site, which is held within the <code>nav</code> tag.</p>
+        </section>
+        <section id="css" class="main-section">
+          <header>
+            <h2>CSS</h2>
+          </header>
+          <p>CSS stands for Cascading Style Sheets, it is a language used for styling and editing the appearance of websites. It is called Cascading Style Sheets due to the way the files in CSS are processed. With CSS you can take a very basic website and really make it pop with color and design choices. CSS is used with HTML, but it has different syntax than HTML. In CSS for the most part you are listing properties that you want to change and style. In the beginning it can seem daunting trying to remember all the different properties, but just like with HTML once you start coding on a regular basis it becomes easier to remember properties and proper syntax. Usually CSS is is the second step when coding a website because you need content and structure first using HTML, to then use CSS to style the website. </p>
+          <p>CSS uses selectors such as <code>body</code> or <code>main</code> to select which element is going to be styled and then properties like <code>font-size</code> are chosen and given values. Using the same example of a simple blog website, lets look into how CSS can be used to style a website. Lets say that a coder wants to style the words in <code>p</code> tags, they would declare it in CSS like so: <code>p {}</code> and then within the curly braces the properties and their values can be written. An example of a property and its value would look like this: <code>font-size: 20px;</code>. This would give words in <code>p</code> tags a font size of 20 pixels. When it comes to styling the navigation bar you could declare the anchor tag like so: <code>a {}</code>. Then declare a property and a value such as: <code>color: azure;</code>, this would change the color of the links in the navigation bar to an azure color. CSS could also be used for creating animations using the <code>@keyframes</code> property, but the animations are still for styling a website. You would not use it to create a cartoon show for example. Most importantly CSS could also make websites more accessible by using the <code>@media</code> tag, which can help make a website function on any device.</p>
+        </section>
+        <section id="javascript" class="main-section">
+          <header>
+            <h2>JavaScript</h2>
+          </header>
+          <p>Although I am still in the early part of my coding journey, and I have not had the chance to use JavaScript. I do know some basic details about JavaScript, and I am looking forward to learning this language. JavaScript is a programming language that is used primarily for websites to define the functions and behavior of a website. For example, JavaScript could help a blog website to send notifications to users of the blog, to let them know that there is a new post. Another example is an online store that needs be able to have customers make personal accounts with their financial information, and be able to purchase items under their accounts. JavaScript can also be used with libraries that contain functions or other assets that can help in building a website.</p>
+          <p>JavaScript can also be used to create games as well. Some games that have been made by using JavaScript are the following:</p>
+          <ul>
+            <li class="reg-list"><a href="https://www.digbejeweled.com/">Bejeweled</a></li>
+            <li class="reg-list"><a href="http://chrome.angrybirds.com/">Angry Birds</a></li>
+            <li class="reg-list"><a href="http://hypnoticowl.com/games/the-wizard/">The Wizard</a></li>
+            <li class="reg-list"><a href="http://www.cross-code.com/en/home">CrossCode</a></li>
+            <li class="reg-list"><a href="http://www.deconstructeam.com/games/gods-will-be-watching/">Gods Will Be Watching</a></li>
+          </ul>
+        </section>
+        <section id="helpful_resources" class="main-section">
+          <header>
+            <h2>Helpful resources</h2>
+          </header>
+          <p>The following are the resources I have found very useful in my coding journey:</p>
+          <ul>
+            <li class="reg-list">Free Code Camp's<a href="https://www.freecodecamp.org/"> official website</a></li>
+            <li class="reg-list">Free Code Camp's<a href="https://www.youtube.com/c/Freecodecamp"> Youtube channel</a></li>
+            <li class="reg-list">MDN Web Doc's<a href="https://developer.mozilla.org/en-US/"> official website</a></li>
+            <li class="reg-list">W3 schools'<a href="https://www.w3schools.com/"> official website</a></li>
+          </ul>
+        </section>
+      </main>
 
-    <h3></h3>
-    <article>
-        Front-end development, or client-side development, involves building the User Interface (UI) of a website or a web application, that determines how every part of a website will look and how it will work. The UI includes the visual part of the application and the user interactions. Whatever you see when you visit a website - the different types of buttons and other UI components, media, texts, forms, animations, etc. are all developed as a part of the front-end. Please also take a look at the details on what is markdown here.  
+      <style>
+        body {
+  margin: 0;
+  font-size: 1.125rem;
+  font-family: 'Spline Sans', sans-serif;
+}
 
-A Front-End Developer is a type of Software Engineer who works on front-end development. They are not only responsible for developing the UI, but they also ensure a balance between design and functionality and ensure speed and scalability. They also ensure that the website loads correctly on all browsers (cross-browser), on different operating systems (cross-platform), and on different devices like mobiles, tablets, and computer screens (cross-device). 
+/* **********
+   Layout
+ ********* */
 
-If you are serious about becoming a Front End Developer, you can start by signing up for a Front End Online Course.  
+#main-doc {
+  position: absolute;
+  left: 20em;
+  margin-right: 1em;
+}
 
-The tools and technologies that are used to develop the front-end of a website change constantly. The plethora of these front-end tools and frameworks often confuses beginners who are trying to step into the front end because they are unsure of what they need to learn. If you want to become a Front-End Developer and don’t know where to start, this is the right place for you. In this article, we will look at what tools, technologies, frameworks, and programming languages you need to learn. We will cover the Front End Developer roadmap. You might also find it interesting to read about the top reasons to become a full stack developer article 
+@media (max-width: 700px) {
+  #main-doc {
+    position: static;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 
-Note that the front end development roadmap presented in this article is not the only way to become a Front End Developer. This is simply a guide for those who are looking to start learning Front End Development. .
-    </article>
+code {
+  background: #e8e8e8;
+}
 
-    <h3>Fundamentals of Front End </h3>
-    <p>For stepping into Front-End Development, the most essential skills you should have are HTML, CSS, and JavaScript. These skills are the bare minimum to start with Front-End Development. Note that front-end web development is not just limited to these three skills, there are many more technologies that you will need to learn to excel as a Front-End Developer in 2022. 
+.reg-list {
+  padding: .25em;
+}
 
-        Let us look at these fundamental skills in detail. 
-        <h3>1. HTML - HyperText Markup Language   </h3>
+/* Navigation */
 
-        <p>HTML stands for HyperText Markup Language. It is used to form the “skeleton”, or the base, of any website. It lays out a website’s general structure and content. The elements that you see on the screen - buttons, images, sliders, date pickers, texts, lists, etc. are all added using HTML.  
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
-This markup language is made up of tags that label or indicate what the content should appear as. For example, let us look at the code snippet below. </p>
+.nav-list {
+  list-style: none;
+}
 
-<img>
-<li><!DOCTYPE html> is a declaration that should be added at the start of every HTML document to indicate to the browser what type of document to expect, i.e. HTML.</li> 
-<li>The HTML opening tag (<html>) and the HTML closing tag (</html>) indicate the start and end of a HTML structure.  </li>
-<li> “head” tags (<head> and </head>) contain the metadata or information about the website. Not all of the metadata is visible on the website, some of them are information for the browsers. </li> 
-<li>The opening and closing “title” tags (<title> and </title>) are used to give the title to your website which will be visible on the browser tab.</li> 
-<li>The content between the opening and closing body tags (<body> … </body>) contains the elements that will appear on the screen. </li>
-<li>The tags “h1”, “h2”, “p”, and “i” are used to format the text. </li> 
-<li>The “button” tag is used to create a button with the name “Click Me!”</li> 
-    </p>
+.nav-list-item {
+  padding: .5em 0 .25em 0;
+  border-bottom: 1px solid black;
+}
 
-    <h3>2. CSS - Cascading Style Sheets </h3>
-    <p>CSS stands for Cascading Style Sheets using which you can add styles to your web pages like colors, fonts, layouts, and animations. With CSS, you can also make responsive websites that can change layout and styles according to the device resolution and orientation so that users have a seamless experience while using your website on devices of any size. CSS allows you to style multiple elements at once. It uses tag, class, and id selectors to target HTML elements that we want to style. We can then use these selectors to write style rules containing a property name like “font-size”, “background-color”, “margin-left”, etc. and values for these properties.</p>
+.nav-list-item:hover,
+.nav-list-item:active {
+  background: #d3d3d3;
+}
 
-    <h3>3. JavaScript</h3>
-    <p>Now that we have built the layout of our website using HTML and styled it using CSS, the next step is to add “actions” to our websites. This is done using the JavaScript programming language.  It improves the interactivity of your website. You can also create dynamic UI elements using JavaScript. JavaScript adds functionality to your website. For example, opening a menu on click of a button, updating the progress in a progress bar, sending a request containing your username and password to an authentication service after you click on the “Login” button to check if you are an authorized user, etc.  With the help of JavaScript, your website can respond to user activities on the page.  
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
 
-        You may consider HTML, CSS, and JavaScript as an analogy to the body of humans.  The role of the skeleton and the organs is played by HTML. The role of the appearance and looks is played by CSS - height, eye color, hair color, skin color, skin texture, face structure, the shape of the hands, etc. The bodily functions are done using JavaScript - how the digestive system works, how the nervous system works, etc. 
-        
-        Now that we have seen the three fundamentals of front end development, let us look at a few other fundamental skills needed for a front end developer.</p>
+@media (max-width: 700px) {
+  #navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 
-        <h3>4. DOM Manipulation
-        </h3>
-        <p>With HTML, you can create web pages with static layouts easily. However, you might need to build dynamic web pages that can change the layout on the fly.  For example, you might want to add, remove, or edit HTML elements after the web page has been loaded or you might want to modify the CSS styles of an element only when an event occurs. Such dynamic manipulation of your web page can be done using the Document Object Model (DOM) API, which is a set of APIs to control HTML and styling information. DOM Manipulation is a good-to-have skill that will help you in creating applications capable of updating the data or the layout of the page without reloading. DOM Manipulation can be done using JavaScript.</p>
+/* Typography */
 
-        <h3>5. How the Web Works</h3>
-        <p>As a front end developer, you should have a basic idea of the working of the web and the different protocols for communication over the web. It is good to have the basic idea of how the internet works, how clients and servers interact, the Domain Name Server (DNS) and the components of a website i.e code files and assets. While it is not important to know all the communication protocols in detail, the basic knowledge of these protocols will help you develop secure websites which are critical nowadays. HTTPS and SSL are two of the secure communication protocols that are good to know.  </p>
+h1,
+h2 {
+  font-weight: 700;
+}
 
-        <h3>6. Responsive Design
-        </h3>
-        <p>Responsive Web Design means creating websites that can be used on all types and sizes of devices. In today’s time where people use websites from all devices like laptops, large-screen computers, tablets as well as mobile phones, it becomes of utmost importance to develop responsive interfaces. This can be done using CSS Media Queries, where the style and layout of the web page change as per the device and screen size. Responsive Design automatically resizes, hides, shrinks or enlarges the components on a website. </p>
-
+p {
+  font-weight: 400;
+}
+      </style>
 </body>
 </html>

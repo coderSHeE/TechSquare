@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  background-color: #000;
+    /*background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);*/
 }
 *{
     margin: 0;
@@ -39,7 +40,7 @@ a:visited{
 }
 
 a:hover{
-    color: #000;
+    color: #fff;
 }
 
 a:active{
@@ -106,13 +107,16 @@ a:active{
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 6px 10px #fff(0, 0, 0, 0.25);
     transition: all 0.2s;
+    border-color: #ffffff;
   }
   
   .card:hover {
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 6px 10px #fff(0, 0, 0, 0.4);
     transform: scale(1.01);
+    opacity: 0.8;
+    color: yellow;
   }
   
   .card__link,
