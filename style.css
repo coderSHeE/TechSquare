@@ -64,7 +64,7 @@ h2{
 
 
   /*----------------coresol-----------------------*/
-  */
+  
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
 .container {
   margin: auto;
@@ -1028,7 +1028,8 @@ button {
       padding: 2rem;
     }
   }
-  .color-change{
+
+  .color-change1{
     background-color: #00002a;
   }
   .container1 {
