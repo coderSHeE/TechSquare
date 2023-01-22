@@ -21,7 +21,6 @@ var today = moment();
 /*-------------------------*/
 
 
-
 const items = document.querySelectorAll('.slider-item');
 const itemCount = items.length;
 const nextItem = document.querySelector('.next');
@@ -74,7 +73,6 @@ nextItem.addEventListener('click', showNextItem);
 previousItem.addEventListener('click', showPreviousItem);
 document.addEventListener('keydown', keyPress);
 navItem.addEventListener('click', toggleNavigation);
-
 
 
 
