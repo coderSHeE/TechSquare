@@ -3,8 +3,19 @@ body{
     padding: none;
     margin: none;
    
-    
-    
+}
+h3 h2 h1 p{
+  text-align: justify;
+}
+a{
+  color: red;
+}
+a:visited{
+  color: #000;
+}
+
+a:hover{
+  color: #00002a;
 }
 h2{
     font-family: 'Candal', sans-serif;
