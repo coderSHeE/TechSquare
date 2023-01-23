@@ -403,7 +403,7 @@ article p {
 .page-content1 {
   display: grid;
   grid-gap: 1rem;
-  padding: 1rem;
+  padding: none;
   max-width: 1024px;
   margin: 0 auto;
   font-family: var(--font-sans);
@@ -424,7 +424,7 @@ article p {
   display: flex;
   align-items: flex-end;
   overflow: hidden;
-  padding: 1rem;
+  padding: none;
   width: 100%;
   text-align: center;
   color: whitesmoke;
