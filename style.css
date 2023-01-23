@@ -147,7 +147,12 @@ article p {
     margin: 0 auto;
     
   }
-  
+  .grid a{
+    color: yellow;
+  }
+  .grid a:visited {
+    color: red;
+  }
   c-card {
     background-color: #fff;
     display: flex;
