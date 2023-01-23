@@ -174,8 +174,11 @@ article p {
     height: 150px;
   }
   c-card[dark] {
-    background-color: #000;
+    background-color: #00002a;
     color: #eee;
+  }
+  c-card a :visited{
+    color: #688235;
   }
   c-card[dark] c-content p {
     color: #bbbbbb;
@@ -258,7 +261,7 @@ article p {
     transition: all ease 0.3s;
   }
   .card__readbtn:hover {
-    color: grey;
+    color: yellow;
   }
   .card__readbtn:hover::after {
     width: 100%;
@@ -379,3 +382,7 @@ article p {
     width: 100%;
   }
 }
+
+
+/*------------------corosul post ---------------------*/
+
